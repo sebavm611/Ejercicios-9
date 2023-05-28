@@ -22,7 +22,7 @@ public class Histograma {
 
         do {
 
-            System.out.print("Ingrese la cadena de numeros: ");
+            System.out.println("Ingrese números reales positivos (0 a 30) separados por un espacio en blanco:");
             nums = sc.nextLine();
             
             while(!nums.matches("(([0-2]?[0-9]{1}(\\.\\d+)?)|(30(\\.0+)?))(( [0-2]?[0-9]{1}(\\.\\d+)?)|( 30(\\.0+)?))*")){
@@ -30,7 +30,8 @@ public class Histograma {
                 System.out.print("Digite nuevamente: ");
                 nums = sc.nextLine();
             }
-
+            
+            System.out.println("\nHISTOGRAMA");
             imprimirHistograma(nums);
             
             System.out.print("Desea continuar S/N: ");
