@@ -30,11 +30,7 @@ public class CombinacionesTriangulos {
             
         }while(!op.matches("[nN]"));
         
-        /*
-        s = sc.nextLine();
-        
-        boolean b = s.matches("([0-9]+(\\.[0-9]+)?)(\\s[0-9]+(\\.[0-9]+)?){2,}");
-        System.out.println(b);*/
+       
         
     }
     
@@ -71,7 +67,6 @@ public class CombinacionesTriangulos {
                         System.out.println(nums[j]+"\t"+nums[k]+"\t"+nums[i]);
                     }
                     
-                    //System.out.println(nums[j]+"\t"+nums[k]+"\t"+nums[i]);
                 }
             }
         }
