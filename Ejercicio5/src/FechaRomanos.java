@@ -52,7 +52,7 @@ public class FechaRomanos {
         
         Calendar fechaActual = Calendar.getInstance();
         Calendar fechaIngresada = Calendar.getInstance();
-        fechaIngresada.set(Integer.parseInt(fecha[2]), Integer.parseInt(fecha[1]), Integer.parseInt(fecha[0]));
+        fechaIngresada.set(Integer.parseInt(fecha[2]), Integer.parseInt(fecha[1])-1, Integer.parseInt(fecha[0]));
         
         if(fechaIngresada.compareTo(fechaActual)>0){
             return false;
